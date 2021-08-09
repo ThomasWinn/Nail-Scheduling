@@ -13,6 +13,9 @@
 		1B6CD30F26B7862400822B16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6CD30E26B7862400822B16 /* Preview Assets.xcassets */; };
 		1B6CD31A26B7862400822B16 /* NailSchedulingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CD31926B7862400822B16 /* NailSchedulingTests.swift */; };
 		1B6CD32526B7862400822B16 /* NailSchedulingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CD32426B7862400822B16 /* NailSchedulingUITests.swift */; };
+		1BE69BFB26C0D79E0088966C /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE69BFA26C0D79E0088966C /* main.storyboard */; };
+		1BE69BFD26C0D8C90088966C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE69BFC26C0D8C90088966C /* ViewController.swift */; };
+		1BE69BFF26C0DE3C0088966C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE69BFE26C0DE3C0088966C /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		1B6CD32026B7862400822B16 /* NailSchedulingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NailSchedulingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6CD32426B7862400822B16 /* NailSchedulingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailSchedulingUITests.swift; sourceTree = "<group>"; };
 		1B6CD32626B7862400822B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE69BFA26C0D79E0088966C /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		1BE69BFC26C0D8C90088966C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BE69BFE26C0DE3C0088966C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				1B6CD30B26B7862400822B16 /* Assets.xcassets */,
 				1B6CD31026B7862400822B16 /* Info.plist */,
 				1B6CD30D26B7862400822B16 /* Preview Content */,
+				1BE69BFA26C0D79E0088966C /* main.storyboard */,
+				1BE69BFC26C0D8C90088966C /* ViewController.swift */,
+				1BE69BFE26C0DE3C0088966C /* Extensions.swift */,
 			);
 			path = NailScheduling;
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 			files = (
 				1B6CD30F26B7862400822B16 /* Preview Assets.xcassets in Resources */,
 				1B6CD30C26B7862400822B16 /* Assets.xcassets in Resources */,
+				1BE69BFB26C0D79E0088966C /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE69BFD26C0D8C90088966C /* ViewController.swift in Sources */,
 				1B6CD30A26B7862300822B16 /* ContentView.swift in Sources */,
 				1B6CD30826B7862300822B16 /* NailSchedulingApp.swift in Sources */,
+				1BE69BFF26C0DE3C0088966C /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
